@@ -7,7 +7,7 @@ import asyncio
 
 
 
-async def search(txt:str,stop:int = 5):
+async def search(txt:str,stop:int = 10):
     if stop > 10 :
         stop = 10
     txt = txt.replace(' ','+')
